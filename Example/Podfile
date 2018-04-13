@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EmailOctopusKit_Example' do
+  pod 'EmailOctopusKit', :path => '../'
+
+  target 'EmailOctopusKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
