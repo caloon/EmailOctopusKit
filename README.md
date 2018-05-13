@@ -9,7 +9,7 @@ EmailOctopus is an affordable email campaign and marketing automation platform. 
 
 One possible use case of this pod might be signing up mobile app users to your email lists and sending them automated emails (e.g. Welcome Email).
 
-New to EmailOctopus? [Use this link to signup and get 15$ credit.](https://emailoctopus.com/?urli=zzJ7l)
+New to EmailOctopus? [Use this link to signup and get $15 credit.](https://emailoctopus.com/?urli=zzJ7l)
 
 ## Example
 
