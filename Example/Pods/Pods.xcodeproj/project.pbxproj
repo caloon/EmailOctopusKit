@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1037193C426F340F06A88D3E9A3C0D29 /* Pods-EmailOctopusKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05D40F7F8AEB0F9720C718E63E82F6B /* Pods-EmailOctopusKit_Tests-dummy.m */; };
+		18AD1DE5340A0DBE2D8756071714B2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		240278431885643A98449868C90E8302 /* Pods-EmailOctopusKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9882FD739BC20310C138B63258B9295 /* Pods-EmailOctopusKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		344A60536153777460CA81813D4B215F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3D7AD7AFD44E3371A2A2F10912AD15DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4B468F4D8930A03AFC6D8D45E8804276 /* Pods-EmailOctopusKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 430166C7E8F1A21A5BF3B55FBB682B02 /* Pods-EmailOctopusKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903FB4A805C78941D419268E73F2B522 /* EmailOctopusKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E9A00332C022962D9CD8BBD2490CD1 /* EmailOctopusKit-dummy.m */; };
+		9203B31F242A73469257342EF3A0EE55 /* Pods-EmailOctopusKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C5828CE5FC7130DEDD02B7D1452080 /* Pods-EmailOctopusKit_Example-dummy.m */; };
+		96519E2A20A846A30081F49A /* EmailOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96519E2920A846A30081F49A /* EmailOctopus.swift */; };
+		96519E2C20A84DEA0081F49A /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96519E2B20A84DEA0081F49A /* Keychain.swift */; };
+		AA0AFD1C1C10A9A429E27F33D29208DF /* EmailOctopusKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8825ED7D971A6827E2AFC4EB25AA3D1C /* EmailOctopusKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F518893DBF42C0BCD27EF15ECA37E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B1D4B9493579891B0F895A76FD558A5;
+			remoteInfo = EmailOctopusKit;
+		};
+		8461B6068938266744F7BE7923E759F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14EFA7AAAE3B0434CA9C6DDC826CDFA2;
+			remoteInfo = "Pods-EmailOctopusKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121B355BA5DD796193583F16887F8AAE /* Pods-EmailOctopusKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmailOctopusKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		188165C69CADFDF0F9981511C8628198 /* Pods-EmailOctopusKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmailOctopusKit_Example.modulemap"; sourceTree = "<group>"; };
+		19D9E455E1451F2717B4CDCAEA92C835 /* Pods-EmailOctopusKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmailOctopusKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D110AE3CF58A7D430DF4584E2940DA5 /* Pods_EmailOctopusKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailOctopusKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CABAD245B977EF72B0CEA16AA322D1 /* EmailOctopusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EmailOctopusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1F908D2BBF48AAB32D8B9253F8EE4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		430166C7E8F1A21A5BF3B55FBB682B02 /* Pods-EmailOctopusKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmailOctopusKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		434AF2C0A407E3C29EB11335B18B0997 /* EmailOctopusKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = EmailOctopusKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		44D0233E693F4A5EC7536358C2A220E6 /* Pods-EmailOctopusKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmailOctopusKit_Example-resources.sh"; sourceTree = "<group>"; };
+		47E771DA64A7102A12192329A7E5DBA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		568CD9F54EC04E61A0EDE2E121BED048 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D4A91B3DD46B74DDE8CE39962B417F /* Pods-EmailOctopusKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmailOctopusKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		5FE9B418362C08D56A58EF14812E22DF /* EmailOctopusKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmailOctopusKit.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		721BEC089ADAA74352277A5B70F25248 /* Pods-EmailOctopusKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmailOctopusKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		75C5828CE5FC7130DEDD02B7D1452080 /* Pods-EmailOctopusKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmailOctopusKit_Example-dummy.m"; sourceTree = "<group>"; };
+		7F1F04D546AD29EF2DDF893E85C9FA05 /* Pods-EmailOctopusKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmailOctopusKit_Tests.modulemap"; sourceTree = "<group>"; };
+		82E6C40480995848D9332643F29D4A71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8825ED7D971A6827E2AFC4EB25AA3D1C /* EmailOctopusKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailOctopusKit-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9409EC9EDFA24CCAB616723A79F8B634 /* Pods-EmailOctopusKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmailOctopusKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96519E2920A846A30081F49A /* EmailOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailOctopus.swift; path = EmailOctopusKit/Classes/EmailOctopus.swift; sourceTree = "<group>"; };
+		96519E2B20A84DEA0081F49A /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = EmailOctopusKit/Classes/Keychain.swift; sourceTree = "<group>"; };
+		A0A265F8091095F7AC8E966A665A58FC /* Pods-EmailOctopusKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmailOctopusKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B49434C84E2213598EB701F4E9645DBB /* Pods-EmailOctopusKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmailOctopusKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C51C568E073CF73E94BF3A41578B9353 /* Pods-EmailOctopusKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmailOctopusKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C9E9A00332C022962D9CD8BBD2490CD1 /* EmailOctopusKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmailOctopusKit-dummy.m"; sourceTree = "<group>"; };
+		D05D40F7F8AEB0F9720C718E63E82F6B /* Pods-EmailOctopusKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmailOctopusKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		D30847C3967EF3D05A3163B2E72A4FAD /* Pods-EmailOctopusKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmailOctopusKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9882FD739BC20310C138B63258B9295 /* Pods-EmailOctopusKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmailOctopusKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		EC240635D28BDE67DBC6D439A1B5D913 /* Pods-EmailOctopusKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmailOctopusKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC4C5221139D4034390B65141A16F8EB /* Pods_EmailOctopusKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailOctopusKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0580D25219C3E524ABD3E01DF35E759 /* EmailOctopusKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailOctopusKit-prefix.pch"; sourceTree = "<group>"; };
+		F073B30FDE4919BC97054A8A99A89AC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89021B959C11CCF90522BC319CD79DB /* EmailOctopusKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmailOctopusKit.modulemap; sourceTree = "<group>"; };
+		FFB934CAD7C7E5BD5F668D93C387F943 /* Pods-EmailOctopusKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmailOctopusKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44845984B31BE44A5C27C5F1D2FE06D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7AD7AFD44E3371A2A2F10912AD15DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		963D9CA9A33E14260701042A0284F32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD1DE5340A0DBE2D8756071714B2D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E430DCA6BD469EE30F7460130082917A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344A60536153777460CA81813D4B215F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066BA97122505A41DF2072B4312E420F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ACDC91B5213AE814CD04C0891DDFD1B /* Pods-EmailOctopusKit_Example */,
+				DABCEFA305310542DB9ADC9AD04970EA /* Pods-EmailOctopusKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		108EC01FE083C6166F25EE99E068BB53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8023FA98055E859E4AA0573B902C9D32 /* EmailOctopusKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56C9E4D304BCDE55EDDC16567052CF3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CABAD245B977EF72B0CEA16AA322D1 /* EmailOctopusKit.framework */,
+				EC4C5221139D4034390B65141A16F8EB /* Pods_EmailOctopusKit_Example.framework */,
+				2D110AE3CF58A7D430DF4584E2940DA5 /* Pods_EmailOctopusKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F45BE6017215849A16B22A7F7531208 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89021B959C11CCF90522BC319CD79DB /* EmailOctopusKit.modulemap */,
+				5FE9B418362C08D56A58EF14812E22DF /* EmailOctopusKit.xcconfig */,
+				C9E9A00332C022962D9CD8BBD2490CD1 /* EmailOctopusKit-dummy.m */,
+				F0580D25219C3E524ABD3E01DF35E759 /* EmailOctopusKit-prefix.pch */,
+				8825ED7D971A6827E2AFC4EB25AA3D1C /* EmailOctopusKit-umbrella.h */,
+				568CD9F54EC04E61A0EDE2E121BED048 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmailOctopusKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				108EC01FE083C6166F25EE99E068BB53 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				56C9E4D304BCDE55EDDC16567052CF3F /* Products */,
+				066BA97122505A41DF2072B4312E420F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8023FA98055E859E4AA0573B902C9D32 /* EmailOctopusKit */ = {
+			isa = PBXGroup;
+			children = (
+				96519E2B20A84DEA0081F49A /* Keychain.swift */,
+				96519E2920A846A30081F49A /* EmailOctopus.swift */,
+				8CF28213F4EAF028A8F217D359A33502 /* Pod */,
+				6F45BE6017215849A16B22A7F7531208 /* Support Files */,
+			);
+			name = EmailOctopusKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8ACDC91B5213AE814CD04C0891DDFD1B /* Pods-EmailOctopusKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F073B30FDE4919BC97054A8A99A89AC9 /* Info.plist */,
+				188165C69CADFDF0F9981511C8628198 /* Pods-EmailOctopusKit_Example.modulemap */,
+				EC240635D28BDE67DBC6D439A1B5D913 /* Pods-EmailOctopusKit_Example-acknowledgements.markdown */,
+				B49434C84E2213598EB701F4E9645DBB /* Pods-EmailOctopusKit_Example-acknowledgements.plist */,
+				75C5828CE5FC7130DEDD02B7D1452080 /* Pods-EmailOctopusKit_Example-dummy.m */,
+				FFB934CAD7C7E5BD5F668D93C387F943 /* Pods-EmailOctopusKit_Example-frameworks.sh */,
+				44D0233E693F4A5EC7536358C2A220E6 /* Pods-EmailOctopusKit_Example-resources.sh */,
+				D9882FD739BC20310C138B63258B9295 /* Pods-EmailOctopusKit_Example-umbrella.h */,
+				D30847C3967EF3D05A3163B2E72A4FAD /* Pods-EmailOctopusKit_Example.debug.xcconfig */,
+				121B355BA5DD796193583F16887F8AAE /* Pods-EmailOctopusKit_Example.release.xcconfig */,
+			);
+			name = "Pods-EmailOctopusKit_Example";
+			path = "Target Support Files/Pods-EmailOctopusKit_Example";
+			sourceTree = "<group>";
+		};
+		8CF28213F4EAF028A8F217D359A33502 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				434AF2C0A407E3C29EB11335B18B0997 /* EmailOctopusKit.podspec */,
+				3F1F908D2BBF48AAB32D8B9253F8EE4B /* LICENSE */,
+				47E771DA64A7102A12192329A7E5DBA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DABCEFA305310542DB9ADC9AD04970EA /* Pods-EmailOctopusKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82E6C40480995848D9332643F29D4A71 /* Info.plist */,
+				7F1F04D546AD29EF2DDF893E85C9FA05 /* Pods-EmailOctopusKit_Tests.modulemap */,
+				A0A265F8091095F7AC8E966A665A58FC /* Pods-EmailOctopusKit_Tests-acknowledgements.markdown */,
+				9409EC9EDFA24CCAB616723A79F8B634 /* Pods-EmailOctopusKit_Tests-acknowledgements.plist */,
+				D05D40F7F8AEB0F9720C718E63E82F6B /* Pods-EmailOctopusKit_Tests-dummy.m */,
+				C51C568E073CF73E94BF3A41578B9353 /* Pods-EmailOctopusKit_Tests-frameworks.sh */,
+				57D4A91B3DD46B74DDE8CE39962B417F /* Pods-EmailOctopusKit_Tests-resources.sh */,
+				430166C7E8F1A21A5BF3B55FBB682B02 /* Pods-EmailOctopusKit_Tests-umbrella.h */,
+				19D9E455E1451F2717B4CDCAEA92C835 /* Pods-EmailOctopusKit_Tests.debug.xcconfig */,
+				721BEC089ADAA74352277A5B70F25248 /* Pods-EmailOctopusKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-EmailOctopusKit_Tests";
+			path = "Target Support Files/Pods-EmailOctopusKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D9842EC777F64A3E591E50FE6006382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240278431885643A98449868C90E8302 /* Pods-EmailOctopusKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11DC75394B6A7D498F262420536F17B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B468F4D8930A03AFC6D8D45E8804276 /* Pods-EmailOctopusKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2188E78736689A69581F587327B79CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0AFD1C1C10A9A429E27F33D29208DF /* EmailOctopusKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14EFA7AAAE3B0434CA9C6DDC826CDFA2 /* Pods-EmailOctopusKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F3F364DD4622FE18A80F6D5DC267F8 /* Build configuration list for PBXNativeTarget "Pods-EmailOctopusKit_Example" */;
+			buildPhases = (
+				73CAB79C60AE058D3A43E50741E678A7 /* Sources */,
+				E430DCA6BD469EE30F7460130082917A /* Frameworks */,
+				4D9842EC777F64A3E591E50FE6006382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF3A441DA8F31998025629A7B3CA76D /* PBXTargetDependency */,
+			);
+			name = "Pods-EmailOctopusKit_Example";
+			productName = "Pods-EmailOctopusKit_Example";
+			productReference = EC4C5221139D4034390B65141A16F8EB /* Pods_EmailOctopusKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19DAE78AB96F2A2D908ED33DAE80088D /* Pods-EmailOctopusKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095794B0D66922C22F67C5CDC03E87EE /* Build configuration list for PBXNativeTarget "Pods-EmailOctopusKit_Tests" */;
+			buildPhases = (
+				3DD41B162BB682C5E605043BDD234546 /* Sources */,
+				44845984B31BE44A5C27C5F1D2FE06D7 /* Frameworks */,
+				E11DC75394B6A7D498F262420536F17B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D058B789699C03461F34A1B47EA1D4B /* PBXTargetDependency */,
+			);
+			name = "Pods-EmailOctopusKit_Tests";
+			productName = "Pods-EmailOctopusKit_Tests";
+			productReference = 2D110AE3CF58A7D430DF4584E2940DA5 /* Pods_EmailOctopusKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B1D4B9493579891B0F895A76FD558A5 /* EmailOctopusKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9E7AEA1A0784441357E676F6074DC2 /* Build configuration list for PBXNativeTarget "EmailOctopusKit" */;
+			buildPhases = (
+				2E20DFA295F938999EAF9D191A102C46 /* Sources */,
+				963D9CA9A33E14260701042A0284F32A /* Frameworks */,
+				E2188E78736689A69581F587327B79CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailOctopusKit;
+			productName = EmailOctopusKit;
+			productReference = 38CABAD245B977EF72B0CEA16AA322D1 /* EmailOctopusKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					5B1D4B9493579891B0F895A76FD558A5 = {
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 56C9E4D304BCDE55EDDC16567052CF3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1D4B9493579891B0F895A76FD558A5 /* EmailOctopusKit */,
+				14EFA7AAAE3B0434CA9C6DDC826CDFA2 /* Pods-EmailOctopusKit_Example */,
+				19DAE78AB96F2A2D908ED33DAE80088D /* Pods-EmailOctopusKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E20DFA295F938999EAF9D191A102C46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96519E2A20A846A30081F49A /* EmailOctopus.swift in Sources */,
+				903FB4A805C78941D419268E73F2B522 /* EmailOctopusKit-dummy.m in Sources */,
+				96519E2C20A84DEA0081F49A /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD41B162BB682C5E605043BDD234546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1037193C426F340F06A88D3E9A3C0D29 /* Pods-EmailOctopusKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73CAB79C60AE058D3A43E50741E678A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9203B31F242A73469257342EF3A0EE55 /* Pods-EmailOctopusKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D058B789699C03461F34A1B47EA1D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EmailOctopusKit_Example";
+			target = 14EFA7AAAE3B0434CA9C6DDC826CDFA2 /* Pods-EmailOctopusKit_Example */;
+			targetProxy = 8461B6068938266744F7BE7923E759F0 /* PBXContainerItemProxy */;
+		};
+		BAF3A441DA8F31998025629A7B3CA76D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmailOctopusKit;
+			target = 5B1D4B9493579891B0F895A76FD558A5 /* EmailOctopusKit */;
+			targetProxy = 6F518893DBF42C0BCD27EF15ECA37E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345B8A3120E84466CB19ED1D09A417D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE9B418362C08D56A58EF14812E22DF /* EmailOctopusKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmailOctopusKit/EmailOctopusKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmailOctopusKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmailOctopusKit/EmailOctopusKit.modulemap";
+				PRODUCT_MODULE_NAME = EmailOctopusKit;
+				PRODUCT_NAME = EmailOctopusKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E13E15527D9E4C70179CA1955695775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D9E455E1451F2717B4CDCAEA92C835 /* Pods-EmailOctopusKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmailOctopusKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmailOctopusKit_Tests/Pods-EmailOctopusKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8BAE1028EE034F0DBC914FBCC23845CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721BEC089ADAA74352277A5B70F25248 /* Pods-EmailOctopusKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmailOctopusKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmailOctopusKit_Tests/Pods-EmailOctopusKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A67D0176D64299AC5CE95B1D2B1FC08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121B355BA5DD796193583F16887F8AAE /* Pods-EmailOctopusKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmailOctopusKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmailOctopusKit_Example/Pods-EmailOctopusKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A813A6DE9B0D53DE5420DAC1518FFD5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE9B418362C08D56A58EF14812E22DF /* EmailOctopusKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EmailOctopusKit/EmailOctopusKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EmailOctopusKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EmailOctopusKit/EmailOctopusKit.modulemap";
+				PRODUCT_MODULE_NAME = EmailOctopusKit;
+				PRODUCT_NAME = EmailOctopusKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD22C1A251623B2B3A662FBEE571844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30847C3967EF3D05A3163B2E72A4FAD /* Pods-EmailOctopusKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmailOctopusKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmailOctopusKit_Example/Pods-EmailOctopusKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095794B0D66922C22F67C5CDC03E87EE /* Build configuration list for PBXNativeTarget "Pods-EmailOctopusKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E13E15527D9E4C70179CA1955695775 /* Debug */,
+				8BAE1028EE034F0DBC914FBCC23845CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F3F364DD4622FE18A80F6D5DC267F8 /* Build configuration list for PBXNativeTarget "Pods-EmailOctopusKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD22C1A251623B2B3A662FBEE571844 /* Debug */,
+				A67D0176D64299AC5CE95B1D2B1FC08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9E7AEA1A0784441357E676F6074DC2 /* Build configuration list for PBXNativeTarget "EmailOctopusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345B8A3120E84466CB19ED1D09A417D4 /* Debug */,
+				A813A6DE9B0D53DE5420DAC1518FFD5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module EmailOctopusKit {
+  umbrella header "EmailOctopusKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

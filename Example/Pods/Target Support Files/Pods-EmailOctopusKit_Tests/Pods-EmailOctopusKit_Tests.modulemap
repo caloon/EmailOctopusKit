@@ -1,0 +1,6 @@
+framework module Pods_EmailOctopusKit_Tests {
+  umbrella header "Pods-EmailOctopusKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

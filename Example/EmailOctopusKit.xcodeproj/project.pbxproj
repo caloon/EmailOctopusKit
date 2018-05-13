@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6BC8B05F698C75F800E71DAB /* Pods_EmailOctopusKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083A6EA2B2DD11461B552E4C /* Pods_EmailOctopusKit_Tests.framework */; };
+		96813BD02080A9D800880C7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96813BCF2080A9D800880C7C /* Security.framework */; };
 		A76F85039DFEEB1B232F14EA /* Pods_EmailOctopusKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5A4579A186B95F1D849966 /* Pods_EmailOctopusKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +30,9 @@
 
 /* Begin PBXFileReference section */
 		083A6EA2B2DD11461B552E4C /* Pods_EmailOctopusKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailOctopusKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1992C9B310DF7FC82E2FFE19 /* EmailOctopusKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EmailOctopusKit.podspec; path = ../EmailOctopusKit.podspec; sourceTree = "<group>"; };
+		1992C9B310DF7FC82E2FFE19 /* EmailOctopusKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmailOctopusKit.podspec; path = ../EmailOctopusKit.podspec; sourceTree = "<group>"; };
 		234A4731482FD3A03B749AE9 /* Pods-EmailOctopusKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailOctopusKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmailOctopusKit_Example/Pods-EmailOctopusKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		352FA2909CB2C802B47AFF22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		352FA2909CB2C802B47AFF22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EmailOctopusKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailOctopusKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		817C1AFA72FEA376B6972698 /* Pods-EmailOctopusKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailOctopusKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmailOctopusKit_Example/Pods-EmailOctopusKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		96813BCF2080A9D800880C7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9A5A4579A186B95F1D849966 /* Pods_EmailOctopusKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailOctopusKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC77F6ED2EC212BFF0A8764 /* Pods-EmailOctopusKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailOctopusKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmailOctopusKit_Tests/Pods-EmailOctopusKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A1A63A891153E4F3FAFA5ED6 /* Pods-EmailOctopusKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailOctopusKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmailOctopusKit_Tests/Pods-EmailOctopusKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BFF456D837CB49EBE967F218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BFF456D837CB49EBE967F218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96813BD02080A9D800880C7C /* Security.framework in Frameworks */,
 				A76F85039DFEEB1B232F14EA /* Pods_EmailOctopusKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 		AA441D691974562021669645 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				96813BCF2080A9D800880C7C /* Security.framework */,
 				9A5A4579A186B95F1D849966 /* Pods_EmailOctopusKit_Example.framework */,
 				083A6EA2B2DD11461B552E4C /* Pods_EmailOctopusKit_Tests.framework */,
 			);
@@ -212,6 +216,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 628QUGH5RF;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -469,6 +474,7 @@
 			baseConfigurationReference = 817C1AFA72FEA376B6972698 /* Pods-EmailOctopusKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628QUGH5RF;
 				INFOPLIST_FILE = EmailOctopusKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +490,7 @@
 			baseConfigurationReference = 234A4731482FD3A03B749AE9 /* Pods-EmailOctopusKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 628QUGH5RF;
 				INFOPLIST_FILE = EmailOctopusKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
