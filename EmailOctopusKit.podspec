@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EmailOctopusKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EmailOctopusKit.'
+  s.summary          = 'Manage EmailOctopus contacts and email lists on iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'EmailOctopus is an affordable email campaign and marketing automation platform. EmailOctopusKit makes use of the EmailOctopus API and lets you manage contacts and email lists on EmailOctopus.'
 
   s.homepage         = 'https://github.com/caloon/EmailOctopusKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

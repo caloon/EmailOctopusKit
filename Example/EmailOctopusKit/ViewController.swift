@@ -15,11 +15,11 @@ class ViewController: UIViewController {
         
         
         // When first launching your app, set the API Key
-        EmailOctopus.setApiKey("your-api-key")
+        // EmailOctopus.setApiKey("your-api-key")
         
         
         // Managing Campaigns
-        // EmailOctopus.Campaigns.getAllCampaigns() { (error, result) in }
+        EmailOctopus.Campaigns.getAllCampaigns() { (error, result) in }
         // EmailOctopus.Campaigns.getCampaign("campaign-id") { (error, result) in }
         
         

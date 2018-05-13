@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/EmailOctopusKit.svg?style=flat)](http://cocoapods.org/pods/EmailOctopusKit)
 [![Platform](https://img.shields.io/cocoapods/p/EmailOctopusKit.svg?style=flat)](http://cocoapods.org/pods/EmailOctopusKit)
 
-EmailOctopus is an affordable email campaign and marketing automation platform. EmailOctopusKit makes use of the EmailOctopus API and lets you manage contacts and email lists on EmailOctopus. 
+EmailOctopus is an affordable email campaign and marketing automation platform. EmailOctopusKit makes use of the EmailOctopus API and lets you manage contacts and email lists on EmailOctopus.
 
 One possible use case of this pod might be signing up mobile app users to your email lists and sending them automated emails (e.g. Welcome Email).
 
@@ -28,6 +28,8 @@ it, simply add the following line to your Podfile:
 ```
 pod 'EmailOctopusKit'
 ```
+
+Alternatively, copy the *EmailOctopus.swift* and *Keychain.swift* files from the Classes folder into your project and add the *Security.framework* to your project.
 
 ## Usage
 
