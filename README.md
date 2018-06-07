@@ -74,12 +74,18 @@ EmailOctopus.Campaigns.getAllCampaigns() { (error, result) in }
 EmailOctopus.Campaigns.getCampaign("campaign-id") { (error, result) in }
 ```
 
-## Contributors
+## Author
+
+EmailOctopusKit was created by Josef Moser. I am an independent software developer and co-founder of [Cora Health](https://www.cora.health/) and [Cryptoradar](https://cryptoradar.co).
+
+Find me on: [Github](https://github.com/caloon/) or [Twitter](https://twitter.com/josef_moser)
+
+## Contribution
 
 We welcome contribution to this project by opening issues or pull request.
-
-This Cocoapod was created by Josef Moser. I am an independent iOS Developer, and the co-founder of [Cora Health](https://www.cora.health/) and [Cryptoradar](https://www.cryptoradar.co).
 
 ## License
 
 EmailOctopusKit is available under the MIT license. See the LICENSE file for more info.
+If you'd like to acknowledge the author of EmailOctopusKit, please set a link to this GitHub page.
+
